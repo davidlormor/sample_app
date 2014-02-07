@@ -53,6 +53,15 @@ describe User do
     end
   end
 
+  # Username should be 8-20 characters; letters and numbers only!
+  describe "when username format is invalid" do
+    pending
+  end
+
+  describe "when username format is valid" do
+    pending
+  end
+
   describe "when email format is invalid" do
   	it "should be invalid" do
   		addresses = %w[user@foo,com user_at_foo.org example.user@foo.
